@@ -1,7 +1,7 @@
 body{
     font-size: 25px;
     font-style: normal;
-    background-color: rgb(98, 153, 198);
+    background-color: #132555;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@ body{
 #mainBody{
     width: 50%;
     height: 100%;
-    background-color: rgb(143, 203, 246);
+    background: radial-gradient(#6299c6,#8fcbf6);
 }
 
 .Subtitulo{
@@ -25,6 +25,7 @@ body{
     justify-content: center;
     width: 100%;
     padding-top: 5%;
+    background: linear-gradient(to bottom,#44a9f1,#8fcbf6);
 }
 
 #infoPrincipal{
@@ -50,8 +51,15 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column nowrap;
     height: 100%;
     padding: 5% 0% 5% 0%;
+    background-color: #8fcbf6;
+}
+
+#tituloLogos{
+    font-size: 40px;
+    margin: 0px 0px -0.1px 0px;
 }
 
 #logosHabilidades{
@@ -73,6 +81,7 @@ h1{
     align-items: center;
     flex-flow: column wrap;
     width: 100%;
+    background-color: #8fcbf6;
 }
 
 .nameProyecto{
@@ -126,6 +135,7 @@ h1{
     align-items: center;
     width: 100%;
     padding: 5% 0% 5% 0%;
+    background-color: #8fcbf6;
 }
 
 #sobreMi{
@@ -137,4 +147,9 @@ h1{
     width: 400px;
     height: 450px;
     border-radius: 0%;
+}
+
+footer{
+    padding-top: 5%;
+    background: linear-gradient(to top,#44a9f1,#8fcbf6);
 }
