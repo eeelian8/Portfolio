@@ -1,0 +1,61 @@
+body{
+    font-size: 25px;
+    font-style: normal;
+    background-color: rgb(193, 185, 152);
+    width: 100%;
+    box-sizing: content-box;
+    margin: 0;
+}
+
+#containerInfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 5%;
+}
+
+#infoPrincipal{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+h1{
+    font-size: 80px;
+}
+
+#descripcion{
+    width: 100%;
+}
+
+.Avatar{
+    width: 20%;
+    border-radius: 50%;
+}
+
+#containerLogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    padding: 5% 0% 5% 0%;
+}
+
+#logosHabilidades{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(208, 202, 179);
+}
+
+.Logos{
+    width: 8%;
+    padding: 0px 50px 0px 50px;
+}
+
+#imgSobreMi{
+    border-radius: 0%;
+}
