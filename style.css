@@ -24,6 +24,7 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    width: 100%;
     align-items: center;
     background-color: #44a9f1;
 }
@@ -33,12 +34,18 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 8%;
 }
 
 .logoRedes{
     width: 50px;
     height: 50PX;
-    padding: 10% 10% 1% 10%;
+    padding: 5% 10% 5% 10%;
+    cursor: pointer;
+}
+.logoRedes:hover{
+    width: 70px;
+    height: 70PX;
 }
 
 #containerInfoPrincipal{
@@ -47,7 +54,7 @@ body{
     justify-content: center;
     width: 100%;
     padding-top: 5%;
-    background: linear-gradient(to bottom,#44a9f1,#8fcbf6);
+    background: linear-gradient(to bottom,#44a9f1,rgb(143, 203, 246));
 }
 
 #infoPrincipal{
@@ -106,8 +113,11 @@ h1{
 }
 
 .Logos{
-    width: 7%;
+    width: 5%;
     padding: 0px 2% 0px 2%;
+}
+.Logos:hover{
+    width: 8%;
 }
 
 #containerProyectos{
@@ -190,7 +200,7 @@ h1{
 
 #nombreApellidoContacto{
     display: flex;
-    width: 80%;
+    width: 81%;
     height: 60px;
     margin: 0% 0% 1.5% 0%;
 }
@@ -199,14 +209,29 @@ h1{
     width: 80%;
     height: 60px;
     margin: 0.5% 0.5% 0.5% 0.5%;
+    font-size: 32px;
+    color: grey;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
 } 
 
 #iptDescripcion{
     height: 150px;
 }
 
-#btnAceptar{
-    width: 150px;
+#btnAceptar {
+    background-color: #bdbdbd;
+    color: black;            
+    padding: 15px 30px;       
+    overflow: hidden;    
+    background-color: rgb(211, 211, 211);
+}
+
+#btnAceptar:hover {
+    transition: 0.5s;
+    background-color: rgb(28, 209, 28);
 }
 
 #containerSobreMi{
