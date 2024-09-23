@@ -10,13 +10,35 @@ body{
 }
 
 #mainBody{
-    width: 50%;
+    width: 85%;
     height: 100%;
     background: radial-gradient(#6299c6,#8fcbf6);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .Subtitulo{
     font-size: 70px;
+}
+
+#containerRedes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #44a9f1;
+}
+
+#redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoRedes{
+    width: 50px;
+    height: 50PX;
+    padding: 10% 10% 1% 10%;
 }
 
 #containerInfoPrincipal{
@@ -39,12 +61,24 @@ h1{
 }
 
 #descripcion{
-    width: 100%;
+    width: 95%;
+    font-weight: 400;
 }
 
 .Avatar{
-    width: 80%;
+    width: 350px;
     border-radius: 50%;
+}
+
+
+.infoBreveProyecto{
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.DescripcionTxt{
+    font-size: 32px;
+    margin-top: 5%;
 }
 
 #containerLogosHabilidades{
@@ -59,6 +93,7 @@ h1{
 
 #tituloLogos{
     font-size: 40px;
+    font-weight: 400;
     margin: 0px 0px -0.1px 0px;
 }
 
@@ -67,7 +102,7 @@ h1{
     width: 50%;
     justify-content: center;
     align-items: center;
-    background-color: rgb(225, 241, 255);
+    background: linear-gradient(to top,#9dd1f6,#8fcbf6);
 }
 
 .Logos{
@@ -85,7 +120,7 @@ h1{
 }
 
 .nameProyecto{
-    font-size: 35px;
+    font-size: 39px;
 }
 
 .proyectos{
@@ -105,27 +140,73 @@ h1{
 
 #infoProyecto{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-flow: row nowrap;
     width: 100%;
 }
 
 #ProyectosImg{
-    margin: 0% 2% 2% 0%;
+    margin: 0% 2% 2% 5%;
 }
 
 #DescripcionProyectos{
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: left;
     text-align: left;
-    padding: 20px 0px 20px 0px;
 }
 
 #imgProyectos{
     width: 450px;
     height: 350px;
+}
+
+#containerContacto{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #8fcbf6;
+    padding: 5% 0% 0% 0%;
+}
+
+#tituloContacto{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#contacto{
+    display: flex; 
+    width: 50%;
+    height: 100%;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #badef7;
+    padding: 2% 0% 2% 0%;
+}
+
+#nombreApellidoContacto{
+    display: flex;
+    width: 80%;
+    height: 60px;
+    margin: 0% 0% 1.5% 0%;
+}
+
+.iptContacto{
+    width: 80%;
+    height: 60px;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+} 
+
+#iptDescripcion{
+    height: 150px;
+}
+
+#btnAceptar{
+    width: 150px;
 }
 
 #containerSobreMi{
@@ -144,9 +225,10 @@ h1{
 }
 
 #imgSobreMi{
-    width: 400px;
+    width: 450px;
     height: 450px;
-    border-radius: 0%;
+    border-radius: 2%;
+    margin-top: 5%;
 }
 
 footer{

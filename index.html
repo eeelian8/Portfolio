@@ -8,13 +8,20 @@
 </head>
 <body>
     <div id="mainBody">
+        <div id="containerRedes">
+            <div id="redes">
+                <img class="logoRedes" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" alt="Instagram">
+                <img class="logoRedes" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github">
+                <img class="logoRedes" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Linkedin">
+            </div>
+        </div>
         <header id="containerInfoPrincipal">
             <div id="infoPrincipal">
                 <h1> Elian Leguizamon </h1>
-                <h2 id="descripcion"> Estudiante de programacion en la Universidad Tecnologica Nacional</h2>
+                <h2 id="descripcion"> Estudiante de programacion en la Universidad Tecnologica Nacional. Actualmente en busqueda de un empleo que me permita demostrar mis capacidades</h2>
             </div>
             <div id="imgInfoPrincipal">
-                <img class="Avatar" src="https://avatars.githubusercontent.com/u/79736863?s=400&u=077ac0c123f039481bd2dc984fd0a1378ab0d15c&v=4" alt="Avatar">
+                <img class="Avatar" src="https://i.ibb.co/hH0ntLV/imagen-2024-09-22-201024374.png" alt="Avatar">
             </div>
         </header>
         <div id="containerLogosHabilidades">
@@ -38,12 +45,12 @@
                         <img id="imgProyectos" src="https://i.ibb.co/ZTFXRf9/Proyecto-Winform.jpg" alt="">
                     </div>
                     <div id="DescripcionProyectos">
-                        <span> App de escritorio para el manejo de un negocio </span>
-                        <span> Proyecto desarrollado en C# con .Net en equipo, para un trabajo practico de la universidad </span>
+                        <span class="infoBreveProyecto"> App de escritorio para el manejo de un negocio </span>
+                        <span class="DescripcionTxt"> Proyecto desarrollado en C# con .Net en equipo, para un trabajo practico de la universidad </span>
                     </div>
                 </div>
             </div>
-            <div class="proyectos">
+            <!-- <div class="proyectos">
                 <div id="proyectosName">
                     <h4 class="nameProyecto"> Gestor de articulos </h4>
                 </div>
@@ -56,15 +63,30 @@
                         <span> Proyecto desarrollado en C# con .Net en equipo, para un trabajo practico de la universidad </span>
                     </div>
                 </div>
+            </div> -->
+        </section>
+        <section id="containerContacto">
+            <div id="tituloContacto">
+                <h3 class="Subtitulo"> Contacto </h3>
+            </div>
+            <div id="contacto">
+                <div id="nombreApellidoContacto">
+                    <input class="iptContacto" type="text" name="Nombre" id="iptNombre" value="Nombre">
+                    <input class="iptContacto" type="text" name="Apellido" id="iptApellido" value="Apellido">
+                </div>
+                <input class="iptContacto" type="date" name="Fecha" id="iptFecha">
+                <input class="iptContacto" type="email" name="Email" id="iptEmail" value="Email">
+                <input class="iptContacto" type="text" name="Descripcion" id="iptDescripcion" value="Que tipo de proyecto tienes en mente?">
+                <input class="iptContacto" type="button" value="Enviar" id="btnAceptar">
             </div>
         </section>
         <section id="containerSobreMi">
             <div id="sobreMi">
                 <h3 class="Subtitulo">Sobre mi</h3>
-                <span>¡Hola! Soy [Tu Nombre], un apasionado/a [tu profesión o área de especialización] con [número] años de experiencia en [tu industria o campo]. Desde que comencé mi carrera en [tu primer trabajo o experiencia relevante], he tenido la oportunidad de trabajar en proyectos que me han desafiado y me han permitido crecer tanto profesional como personalmente.
-                    Mi enfoque se centra en [tu enfoque o filosofía de trabajo], y me apasiona crear soluciones que no solo sean estéticamente agradables, sino que también ofrezcan un impacto significativo. Siempre busco aprender y mejorar, manteniéndome al tanto de las tendencias y tecnologías emergentes.
-                    En este portfolio, encontrarás una selección de mis trabajos más destacados, que reflejan mi estilo y la diversidad de proyectos en los que he trabajado. Espero que al explorarlo, puedas conocer mejor mi enfoque y la pasión que pongo en cada uno de mis proyectos.
-                    ¡Gracias por visitar! Estoy emocionado/a por la posibilidad de colaborar y crear algo increíble juntos.
+                <span id="descripcionSobreMi" class="DescripcionTxt">
+                    Hola, soy Elian Leguizamon, un estudiante de programacion y sistemas informaticos en la Universidad Tecnologica Nacional (UTN). Soy Argentino y actualmente vivo en la ciudad de Palermo.
+                    Trabajo en el sector de administracion, donde me encargo de controlar pagos y del manejo de un sistema con el cual operamos. Soy un apasionado de la programacion y siempre me emociono la idea de armar algun proyecto que a otro le pueda servir de ayuda.
+                    Actualmente me gusta mas el Backend y estaria encantado de formar parte de algun equipo que este en busqueda de un Junior con muchas ganas de aprender y aportar. 
                 </span>
             </div>
             <div id="imgSobreMi">
