@@ -232,6 +232,12 @@ h1{
 }
 
 footer{
+    display: flex;
+    justify-content: right;
+    align-items:flex-end;
+    font-size: 25px;
     padding-top: 5%;
+    font-weight: 0;
+    color: rgb(0, 0, 0);
     background: linear-gradient(to top,#44a9f1,#8fcbf6);
 }
